@@ -1,0 +1,5 @@
+<launch>
+    <arg name="num" default="5.0" />
+    <node pkg="client" type="sender" name="create_grid" args="$(arg num)" required="true" output="screen" />
+    <node pkg="client" type="receiver.py" name="pub_pcd" />
+</launch>
