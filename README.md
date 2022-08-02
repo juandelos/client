@@ -1,5 +1,5 @@
 # client
-Simple publisher suscriber that squares a given number and then shits down Ros Master.
+Simple publisher suscriber that squares a given number and then shuts down Ros Master.
 ## Build
 Create caktin_ws and clone repository in src
 
